@@ -78,7 +78,7 @@ int main(void) {
   while (1) {
     if (reps > 1){
       printf("\nYou've completed %d sessions 🎊🎉\n"
-	     "Don't give up!\n\n", reps);
+	     "Don't give up!\n\n", reps - 1);
     }
     puts("+-----------------+");
     puts("|🔥TIME TO FOCUS🔥|");
