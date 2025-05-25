@@ -11,7 +11,9 @@
 #ifdef _WIN32
 #include <windows.h>
 void bell() {
-  Beep(750, 300);
+  for (unsigned short i=0;i<=5;i++){
+    Beep(750, 300);
+  }
 }
 #endif
 
